@@ -1,0 +1,298 @@
+case 'junhinkey':
+
+case 'help':
+
+  case 'menu':
+
+    case 'cmd':
+
+  if (!isRegister) return reply(mess.only.daftarB)
+
+  uptime = process.uptime()
+  
+  const junhinmenu = fs.readFileSync('./src/cara/junhin.jpeg');
+  
+  const Menu = {
+
+text: `*𝘖𝘭𝘢, 𝘭𝘦𝘪𝘢 𝘰𝘴 𝘤𝘰𝘮𝘢𝘯𝘥𝘰𝘴 𝘦  𝘢𝘴 𝘪𝘯𝘴𝘵𝘳𝘶𝘤𝘰𝘦𝘴 𝘱𝘢𝘳𝘢 𝘶𝘴𝘢𝘳 𝘰 𝘣𝘰𝘵*.
+*𝘉𝘦𝘮 𝘷𝘪𝘯𝘥𝘰 𝘢𝘰 𝘮𝘦𝘯𝘶* *${pushname}* 
+╭▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂╮
+┃ ⏤͟͟͞  *𝘑𝘜𝘕𝘏𝘐𝘕 𝘉𝘖𝘛☂︎™* ─╝
+┃☯️ ‣ Prefix:  *「 ${prefix} 」*
+┃☯️ ‣ NICK do dono: *🌙ꪾ〬ꩌ۪ঔৣ͜͡𝙅𝙪𝙣𝙝𝙞𝙣☂︎™*
+┃☯️ ‣ Nome do bot:  *JUNHIN BOT*
+┃☯️ ‣ Status online : *${kyun(uptime)}*
+┃☯️ ‣ Grupo:  *${groupName}*
+┃☯️ ‣ Pessoas usando o bot: *${_registered.length}*
+┃☯️ ‣ Numero de chats : *${totalchat.length}*
+╰▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔      *𝗢 𝗺𝗲𝘂 𝗽𝗶𝘅 ♡*
+⇲
+     55 71 9258-3596    
+────────────────
+    *𝗪𝗮.𝗺𝗲 𝗱𝗼 🌙ꪾ〬ꩌ۪ঔৣ͜͡𝙅𝙪𝙣𝙝𝙞𝙣☂︎™*
+ ⇲
+      wa.me/557187566648   
+────────────────
+   *𝗟𝗶𝗻𝗸 𝗱𝗼 𝗴𝗿𝘂𝗽𝗼 𝗱𝗼 𝗯𝗼𝘁*
+⇲                                        https://chat.whatsapp.com/ItgIVmleRm9IX6TmeYuXFk
+
+┏━━━ ⏤͟͟͞ 「 *𝘑𝘜𝘕𝘏𝘐𝘕 𝘉𝘖𝘛☂︎™* 」
+┃ ┏━━━━━━━━━━━━━━
+┃ ┃ঔৣ͜͡➳ *${prefix}Info*
+┃ ┃  (informações do bot)
+┃ ┃ঔৣ͜͡➳ *${prefix}criador ou .dono*
+┃ ┃(Informações proprietário do Bot) ┃ ┃ঔৣ͜͡➳ *${prefix}speed*
+┃ ┃(veja a velocidade do bot)
+┃ ┃ঔৣ͜͡➳ *${prefix}covidbr*
+┃ ┃(veja as informações do covid)
+┃ ┃ঔৣ͜͡➳ *${prefix}aluguel* 
+┃ ┃(opções pra alugar ou compra esse bot 👨‍💻 )     
+┃   ┗━━━━━━━━━━━━━━       
+┗━━━ 〘  *𝘓𝘪𝘴𝘵𝘢 𝘥𝘦 𝘮𝘦𝘯𝘶𝘴* 〙
+┃┏━━━━━━━━━━━━
+┃┃ *( .menu2)*  *(.menu3)* *(.menu4)* *(menu5)* *(menu6)*  *(.menu7)*  *(.menu8)*
+┃┗━━━━━━━━━━━━
+┗━━━〘  *𝘔𝘶𝘴𝘪𝘤𝘢 🎼* 〙
+ᴅɪɢɪᴛᴇ ( *.ᴍᴇɴᴜ2*) ᴏᴜ ( *.ᴍᴇɴᴜᴍᴜsɪᴄᴀ*)    ᴘᴀʀᴀ ᴠᴇʀ ᴍᴇɴᴜ ᴇsᴘᴇᴄɪᴀʟ ᴘᴀʀᴀ ᴍᴜsɪᴄᴀ🎶
+┃┗━━━━━━━━━━━━
+┗━━━〘  *𝘗𝘭𝘢𝘤𝘢*🔞 〙
+┃┏━━━━━━━━━━━━
+┃┃ঔৣ͜͡➳ *.logo1*
+┃┃(plaquinha fake🔞)
+┃┃ঔৣ͜͡➳ *.plogo*
+┃┃(plaquinha fake🔞)
+┃┃ঔৣ͜͡➳ *.plogo2*
+┃┃(plaquinha fake🔞)
+┃┃ঔৣ͜͡➳ *.plaquinha*
+┃┃(plaquinha fake🔞)
+┃┃ঔৣ͜͡➳ *.plaquinha2*
+┃┃(plaquinha fake🔞)
+┃┃ঔৣ͜͡➳ *.plaquinha3*
+┃┃(plaquinha fake🔞)
+┃┗━━━━━━━━━━━━  ┗━━━〘  *+18😈* 〙   
+ 𝘥𝘪𝘨𝘪𝘵𝘦 ( *.𝘮𝘦𝘯𝘶3*) 𝘰𝘶 (*.𝘮𝘦𝘯𝘶𝘩𝘰𝘵*)𝘱𝘢𝘳𝘢 𝘷𝘦𝘳 𝘶𝘮 𝘮𝘦𝘯𝘶 𝘦𝘴𝘱𝘦𝘤𝘪𝘢𝘭 +18 😏
+┃┗━━━━━━━━━━━━━
+┗━━━〘  *𝘌𝘥𝘪𝘵 𝘥𝘦 𝘧𝘰𝘵𝘰 𝘦 𝘵𝘦𝘹𝘵𝘰* 〙   
+┃┏━━━━━━━━━━━━
+┃┃ঔৣ͜͡➳ *.texto*   (TEXTO)
+┃┃ঔৣ͜͡➳ *.pornhub*   (TEXTO)
+┃┃ঔৣ͜͡➳ *.textodafoto*   (FOTO)
+┃┃ঔৣ͜͡➳ *.chlogo* (NÚMERO)
+┃┃ঔৣ͜͡➳ *.grafitir* (TEXTO)
+┃┃ঔৣ͜͡➳ *.blackpink* (TEXTO)           
+┃┃ঔৣ͜͡➳ *.holographic* (TEXTO)
+┃┃ঔৣ͜͡➳ *.text1917* (TEXTO)            
+┃┃ঔৣ͜͡➳ *.bloodfrosted* (TEXTO)
+┃┃ঔৣ͜͡➳ *.halloween* (TEXTO)
+┃┃ঔৣ͜͡➳ *.arti* (TEXTO)
+┃┃ঔৣ͜͡➳ *.chatfake* (TEXTO)
+┃┗━━━━━━━━━━━━━━        
+┗━━━━〘  *𝘦𝘥𝘪𝘵𝘴🎥* 〙   
+ᴅɪɢɪᴛᴇ ( *.ᴍᴇɴᴜ4*) ᴏᴜ ( *ᴍᴇɴᴜᴇᴅɪᴛ* )ᴘᴀʀᴀ ᴠᴇʀ ᴜᴍ ᴍᴇɴᴜ ᴇsᴘᴇᴄɪᴀʟ ᴘᴀʀᴀ ᴇᴅɪᴄᴏᴇs📸
+┃┗━━━━━━━━━━━━━
+┗━━━━〘 *𝘎𝘙𝘜𝘗𝘖* 〙
+┃┏━━━━━━━━━━━━━━━
+┃┃ঔৣ͜͡➳ *${prefix}Listadmin* 
+┃┃(Exibições de lista admin)
+┃┃ঔৣ͜͡➳ *${prefix}Listonline* 
+┃┃(Exibe uma lista de membros online)
+┃┃ঔৣ͜͡➳ *${prefix}Closegc* 
+┃┃(Fechar o Grupo)
+┃┃ঔৣ͜͡➳ *${prefix}Opengc*
+┃┃(Abrir o grupo)
+┃┃ঔৣ͜͡➳ *.bemvindo on*
+┃┃ (bot entra no modo boas vindas)
+┃┃ঔৣ͜͡➳ *${prefix}Promote* 
+┃┃ (Levante o departamento admin)
+┃┃ঔৣ͜͡➳ *${prefix}Demote* 
+┃┃ (Rebaixado admin)
+┃┃ঔৣ͜͡➳ *${prefix}Setname*
+┃┃(Renomeia o grupo)
+┃┃ঔৣ͜͡➳ *${prefix}Setdesk*
+┃┃(Alterar a descrição do grupo)
+┃┃ঔৣ͜͡➳ *${prefix}Add*
+┃┃ (Adicionar membro)
+┃┃ঔৣ͜͡➳ *${prefix}marcar*
+┃┃(Identificar todos os membros)
+┃┃ঔৣ͜͡➳ *${prefix}Linkgrupo* 
+┃┃(Pegue o link do grupo)
+┃┃ঔৣ͜͡➳ *${prefix}suicide*
+┃┃( bot sair do grupo) 
+┃┃ঔৣ͜͡➳ *${prefix}Notif*
+┃┃(Notificar todos os membros)
+┃┃ঔৣ͜͡➳ *${prefix}Delete* 
+┃┃ (Apagar mensagens do Bot) 
+┃┗━━━━━━━━━━
+┗━━━〘 *𝘔𝘦𝘮𝘦*〙
+𝘋𝘪𝘨𝘪𝘵𝘦 *.𝘮𝘦𝘯𝘶5* 𝘰𝘶 *.𝘮𝘦𝘯𝘶𝘴𝘩𝘪𝘵* 𝘗𝘢𝘳𝘢 𝘷𝘦𝘳 𝘶𝘮 𝘮𝘦𝘯𝘶 𝘦𝘴𝘱𝘦𝘤𝘪𝘢𝘭 𝘱𝘢𝘳𝘢 𝘴𝘩𝘪𝘵/𝘮𝘦𝘮𝘦
+┃┗━━━━━━━━━━
+┗━━━〘 *𝘈𝘶𝘥𝘪𝘰🔊* 〙
+┃┏━━━━━━━━━━━━━━
+┃┃ঔৣ͜͡➳ *${prefix}esquilo (marque o audio)*
+┃┃ (Transforma voz em esquilo) 
+┃┃ঔৣ͜͡➳ *${prefix}Slow (marque audio)*
+┃┃ (Alterar a velocidade do áudio) 
+┃┃ঔৣ͜͡➳ *${prefix}Gemuk (marque audio)*
+┃┃ (Raposa de voz baixa)
+┃┃ঔৣ͜͡➳ *${prefix}grave (Reply audio)*
+┃┃ (Aumente os graves do áudio) 
+┃┗━━━━━━━━━━━━
+┗━━━━〘 *𝘈𝘕𝘐𝘔𝘌* 〙
+ᴅɪɢɪᴛᴇ *ᴍᴇɴᴜ6* ᴏᴜ *ᴍᴇɴᴜᴀɴɪᴍᴇ* ᴘᴀʀᴀ ᴠᴇʀ ᴜᴍ ᴍᴇɴᴜ ᴇsᴘᴇᴄɪᴀʟ ᴘᴀʀᴀ ᴀɴɪᴍᴇ
+┃┗━━━━━━━━━━━
+┗━━━━〘 *𝘍𝘌𝘙𝘙𝘈𝘔𝘌𝘕𝘛𝘈𝘚* 〙
+┃┏━━━━━━━━━━━━
+┃┃ঔৣ͜͡➳ *${prefix}s ou .stiker ou .sticker* 
+┃┃ (Faça adesivos de fotos/video)
+┃┃ঔৣ͜͡➳ *${prefix}Traduzir*
+┃┃ (traduzar palavras para o português)
+┃┃ঔৣ͜͡➳ *.perfil*
+┃┃ (mostra sua ft de perfil é sua wa.me)
+┃┃ঔৣ͜͡➳ *.img* (texto)
+┃┃ ( busca imagem acordo com o pedido )
+┃┃ঔৣ͜͡➳ *${prefix}Wasted* 
+┃┃ (Faça adesivos perdidos)
+┃┃ঔৣ͜͡➳ *${prefix}Ttp (Teks)* 
+┃┃ (Crie adesivos a partir de texto)
+┃┃ঔৣ͜͡➳ *${prefix}Toimg* 
+┃┃ (Transforme adesivos em fotos)
+┃┃*${prefix}Tomp3* 
+┃┃ (Converte vídeo em áudio)
+┃┃ঔৣ͜͡➳ *${prefix}Play (Texto)* 
+┃┃ (Tocar uma musica)
+┃┃ঔৣ͜͡➳ *${prefix}ytplay (Texto)* 
+┃┃ (informações e links da musica pesquisada)
+┃┃ঔৣ͜͡➳ *${prefix}Tts pt(Texto)*
+┃┃ (Texto com som)
+┃┃ঔৣ͜͡➳ *${prefix}Igstalk (username)*
+┃┃(Perseguição ao Instagram)
+┃┃ঔৣ͜͡➳ *.attp*
+┃┃ ( Faz figurinha de acordo com o pedido )
+┃┃ঔৣ͜͡➳ *.attp2*
+┃┃ ( Faz figurinha de acordo com o pedido )
+┃┃ঔৣ͜͡➳ *.attp3*
+┃┃ ( Faz figurinha de acordo com o pedido )
+┃┃ঔৣ͜͡➳ *.attp4*
+┃┃( Faz figurinha de acordo com o pedido )
+┃┃ঔৣ͜͡➳ *.attp5*
+┃┃ ( Faz figurinha de acordo com o pedido )
+┃┃ঔৣ͜͡➳ *.attp6*
+┃┃ ( Faz figurinha de acordo com o pedido )
+┃┃ঔৣ͜͡➳ *${prefix}Wame* 
+┃┃(Faço link da sua wa.me)
+┃┃ঔৣ͜͡➳ *${prefix}Wait* 
+┃┃ (Informações de anime de fotos de anime q quiser)
+┃┗━━━━━━━━━━━━         
+┗━━━━〘* 𝘑𝘰𝘨𝘰𝘴* 〙
+ ᴅɪɢɪᴛᴇ *.ᴍᴇɴᴜ7* ᴏᴜ *.ᴍᴇɴᴜᴊᴏɢᴏs* ᴏᴜ *.ᴊᴏɢᴏs* ᴘᴀʀᴀ ᴠᴇʀ ᴜᴍ ᴍᴇɴᴜ ᴇsᴘᴇᴄɪᴀʟ ᴘᴀʀᴀ ᴊᴏɢᴏs
+┃┗━━━━━━━━━━━━   
+┗━━━━━〘 *𝘍𝘰𝘵𝘰* 〙
+┃┏━━━━━━━━━━━━
+┃┃ঔৣ͜͡➳ *${prefix}Wp* 
+┃┃(wallpaper aleatório)
+┃┃ঔৣ͜͡➳ *${prefix}google(Consulta)*
+┃┃(Encontre a imagem de acordo com o pedido)
+┃┃ঔৣ͜͡➳ *${prefix}menu6*
+┃┃( mostra imagens de +300 personagem de anime)
+┃┗━━━━━━━━━━━━   
+┗━━━ 〘* 𝙏𝙚𝙧𝙢𝙪𝙭👨‍💻* 〙
+ᴅɪɢɪᴛᴇ *.ᴍᴇɴᴜ8* ᴏᴜ *.ᴍᴇɴᴜᴛᴇʀᴍᴜx* ᴘᴀʀᴀ ᴠᴇʀ ᴜᴍ ᴍᴇɴᴜ ᴇsᴘᴇᴄɪᴀʟ ᴘᴀʀᴀ ᴛᴇʀᴍᴜx
+┃┗━━━━━━━━━━━
+┗━━━〘 𝙍𝙚𝙨𝙩𝙧𝙞𝙘𝙤𝙚𝙨 🚫〙
+┃┏━━━━━━━━━━━━
+┃┃ঔৣ͜͡➳ *${prefix}antiracismo on*
+┃┃(deixa o grupo no modo antiracismo, off pra desativar)
+┃┃ঔৣ͜͡➳ *.antifake 1*
+┃┃(deixa o grupo no modo anti numero fake, 0 pra desativar)
+┃┃ঔৣ͜͡➳ *.antilink on* 
+┃┃(deixa o grupo no modo antilink,off pra desativar)
+┃┃ঔৣ͜͡➳ *.antivirtex*
+┃┃ (deixa o grupo no modo antitrava)
+┃┗━━━━━━━━━━━━
+┗━━━━━〘* 🤴𝙋𝙍𝙀𝙈𝙄𝙐𝙈* 〙
+┃┏━━━━━━━━━━━
+┃┃ঔৣ͜͡➳👑 *${prefix}daftarvip* 
+┃┃ (para conseguir premium)
+┃┃ঔৣ͜͡➳ 👑 *${prefix}cpf*
+┃┃ (Mostra cpf valido gerado)
+┃┃ঔৣ͜͡➳👑 *${prefix}moddroid* (pesquise qualquer app premium)
+┃┃ (pesquisa links para download do aplicativo pesquisado)
+┃┃ঔৣ͜͡➳ 👑 *${prefix}imunes*
+┃┃ (Mostra varios links pra download de whatsapp imunes)
+┃┃ঔৣ͜͡➳👑 *${prefix}qrcode* (texto)
+┃┃ (consulta cria qrcode de acordo com o texto/url que quiser)
+┃┃ঔৣ͜͡➳👑 *${prefix}gpessoa*
+┃┃ (gera pessoa , com contas)
+┃┃ঔৣ͜͡➳👑 *${prefix}puxacnpj* 
+┃┃ (consulta cnpj , de acordo com a busca)
+┃┃ঔৣ͜͡➳👑 *${prefix}xnxxsearch* (sua pesquisa +18)
+┃┃ (pesquisa +18 de acordo com o pedido 🔞)
+┃┃ঔৣ͜͡➳👑 *${prefix}xnxx* (seu link+18)
+┃┃ (pesquisa +18 de acordo com o link pedido 🔞)
+┃┃ঔৣ͜͡➳👑 *${prefix}ddd* 
+┃┃ (consulta ddd , de acordo com a busca)
+┃┃ঔৣ͜͡➳ 👑 *${prefix}gbin* 
+┃┃ (gera bin)
+┃┃ঔৣ͜͡➳👑 *${prefix}cep* 
+┃┃ (consulta cep , de acordo com a busca)
+┃┃ঔৣ͜͡➳👑 *${prefix}pack18* 🔞
+┃┃ (pack +18)
+┃┃ঔৣ͜͡➳👑 *${prefix}modapk* 
+┃┃ (modapk com varios aplicativos vip)
+┃┃ঔৣ͜͡➳ 👑 *${prefix}cc1*
+┃┃ (gera cartão de credito *VISA*)
+┃┃ঔৣ͜͡➳ 👑 *${prefix}cc2*
+┃┃ (gera cartão de credito *MASTER*)
+┃┃ঔৣ͜͡➳👑 *.spotfy*
+┃┃ (link do spotif premium)
+┃┃ঔৣ͜͡➳👑 *.premiumlist*
+┃┃ (lista de premium)
+┃┃ঔৣ͜͡➳👑 *.consultaip*
+┃┃ (consulta ip de acordo com a busca)
+┃┗━━━━━━━━━━━
+┗━━━〘* só o junhin 😻 *〙
+┃┏━━━━━━━━━━
+┃┃ঔৣ͜͡➳ 👑 *${prefix}addpremium* 
+┃┃ (adiciona membro na lista premium)
+┃┃ঔৣ͜͡➳ *${prefix}Clone*
+┃┃ (Clonar a foto do alvo) 
+┃┃ঔৣ͜͡➳ *${prefix}Block* 
+┃┃ (Bloquear alvo específico)
+┃┃ঔৣ͜͡➳ *${prefix}remover* 
+┃┃ (remove do grupo alvo específico)
+┃┃ঔৣ͜͡➳ *${prefix}Ban* 
+┃┃ (o alvo específico não usara os comandos do bot )
+┃┃ঔৣ͜͡➳ *${prefix}unban* 
+┃┃ (alvo específico volta usar comandos)
+┃┃ঔৣ͜͡➳ *${prefix}Unblock* 
+┃┃ (Desbloquear alvo específico)
+┃┃ঔৣ͜͡➳ *${prefix}Bc* 
+┃┃ (Transmitir mensagem)
+┃┃ঔৣ͜͡➳ *${prefix}hidetag* 
+┃┃ঔৣ͜͡➳ *${prefix}antipalavrao* 
+┃┃ (quem xinga oq o junhin determinar vai ser kitado )
+┃┃ঔৣ͜͡➳ *${prefix}addpalavra*
+┃┃ (adiciona palavrão)
+┃┃ঔৣ͜͡➳ *${prefix}delpalavra* 
+┃┃ (remove todos os palavrao)
+┃┃ঔৣ͜͡➳ *${prefix}Blocklist* 
+┃┃ (Listar usuário terblokir) 
+┃┗━━━━━━━━━━
+┗━━━━━━━━━━━━━━
+*CASO ALGUM BUG DO BOT, DIGITA .BUGREPORT é o bug ao lado. pfvr sem spam*
+    *🌙ꪾ〬ꩌ۪ঔৣ͜͡𝙅𝙪𝙣𝙝𝙞𝙣☂︎™ Domina$*`,
+
+
+
+contextInfo: {
+
+  mentionedJid: [sender]
+
+}
+
+  }
+
+  
+  Pin.sendMessage(from, junhinmenu , image, {
+
+quoted: mek, caption: menu { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "🤓 BOT DO 🌙ꪾ〬ꩌ۪ঔৣ͜͡𝙅𝙪𝙣𝙝𝙞𝙣☂︎™", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABERERESERMVFRMaHBkcGiYjICAjJjoqLSotKjpYN0A3N0A3WE5fTUhNX06MbmJiboyiiIGIosWwsMX46/j///8BERERERIRExUVExocGRwaJiMgICMmOiotKi0qOlg3QDc3QDdYTl9NSE1fToxuYmJujkIgYiixbCwxfjr+P/////CABEIADoAUQMBIgACEQEDEQH/xAAsAAEAAwEBAQAAAAAAAAAAAAAAAgMFBAYBAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAADwYAAAAAEo2EoeggYctbsPMX7XIZPycABZWNvLoHTfnjTo4x0c4AAAAAAAf//EAC0QAAMAAgEDAwIDCQAAAAAAAAECAwQRAAUSMRMhImGSFCCRJEBBQlBRUmOx/9oACAEBAAE/AP3dFLsqjW2IA2QB+p5PHvUoJxdy7FU7VJ7iPcgcM6AMxRtKwVjrwT4B4Y2Hdub/ABRXb28K2tE/Q74+Nead7yZV+BHcNbDglSPodcKsp0wIOgf14mLeisyKCFAJII/ipf8A4vCrKFJBAYbH1Hj8kXWdFdpJUD+RywB+0g8z8N4dXtiQgHxlo5STuyy2qbbmXTHxhjt2SZ6I4yISuzy/17IZudWImmKoT0bvH9pkHc+DpAQxbma/bTqUE2hwEAlUO/eQjiXMARsnTUvAX/EZxgS7vtUQIAF03OjXcdSxJnbLS0kPzddbPbsFCOUFQQKBge1dBv8AEjY/JJ1m4ZpJQDfwbYB+0g8yOvXybpZ8eHm21AfTesgRuXrOpUpjzj9ELnf3luWyTe+Tek0L2ZmPkBSx3teX6lW4uTKS0v7Wou9v7huY/VDj+l24sG9K5vLff8GOv7NzEy/wl43WEneWivd3a7g2w3sRzKyGybeqyKnwRAq70AihB5/on//EABQRAQAAAAAAAAAAAAAAAAAAAED/2gAIAQIBAT8AR//EABQRAQAAAAAAAAAAAAAAAAAAAED/2gAIAQMBAT8AR//Z", "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw==" }} } } })
