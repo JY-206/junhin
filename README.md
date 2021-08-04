@@ -29,7 +29,7 @@
 > pkg install git
 > pkg install nodejs
 > git clone https://github.com/junhin-brabo/junhinbotOFC
-> cd junhin
+> cd junhinbotOFC
 > bash install.sh
 ```
 
